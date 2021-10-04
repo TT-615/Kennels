@@ -11,7 +11,14 @@
             "address": "7002 Chestnut Ct"
         }
     ],
-    "employees": [],
+    "employees": [
+        {
+            "id": 1,
+            "name": "Blah Blah",
+            "address": "7002 Chestnut Ct"
+        }
+
+    ],
     "locations": [
         {
             "id": 1,
