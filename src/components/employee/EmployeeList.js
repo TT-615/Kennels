@@ -1,7 +1,7 @@
 import React, { useState, useEffect } from 'react';
 //import the components we will need
 import { EmployeeCard } from './EmployeeCard';
-import { getAllEmployees, getEmployeeById } from '../employee/EmployeeCard';
+import { getAllEmployees, getEmployeeById } from '../modules/EmployeeManager';
 
 export const EmployeeList = () => {
   // The initial state is an empty array
