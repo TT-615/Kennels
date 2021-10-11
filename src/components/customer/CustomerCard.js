@@ -1,9 +1,20 @@
 import React from "react"
 import "./Customer.css"
 
-export const CustomerCard = () => (
-    <section className="customer">
-        <h3 className="customer__name">Steve Irwin</h3>
-        <div className="customer__address">123 Walkabout Way</div>
-    </section>
-)
+export const CustomerCard = ({ customer }) => {
+    return (
+      <div className="card">
+        <div className="card-content">
+          {/* <picture>
+            <img src={require('./dog.svg')} alt="My Dog" />
+          </picture> */}
+          <h3>Name: <span className="card-customerId">
+            {customer.id}
+          </span></h3>
+          <p>Address: {customer.id}</p>
+        </div>
+      </div>
+    );
+  }
+
+  ///I need to fix lines 11-14

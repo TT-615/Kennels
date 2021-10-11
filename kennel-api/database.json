@@ -1,22 +1,45 @@
 {
     "animals": [
-        { "id": 1, "name": "Doodles", "breed": "Poodle"},
-        { "id": 2, "name": "Decker", "breed": "German Shepherd" },
-        { "id": 3, "name": "Esme", "breed": "Pitbull" }
+        { "id": 1, "name": "Agatha", "breed": "vampire bat"},
+        { "id": 2, "name": "Wiggles", "breed": "spider" },
+        { "id": 3, "name": "Esther", "breed": "snake" }
     ],
     "customers": [
         {
             "id": 1,
-            "name": "Hannah Hall",
-            "address": "7002 Chestnut Ct"
+            "name": "Jamie Lee Curtis",
+            "address": "707 Meridian Avenue"
+        },
+        {
+            "id": 2,
+            "name": "Wednesday Addams",
+            "address": "666 Blackbird Lane"
+
+        },
+        {
+            "id": 3,
+            "name": "Herman Munster",
+            "address": "1313 Mockingbird Lane"
+
         }
     ],
     "employees": [
         {
             "id": 1,
-            "name": "Blah Blah",
-            "address": "7002 Chestnut Ct"
+            "name": "Jason Voorhees",
+            "address": "1313 Elm Street"
+        },
+        {
+            "id": 2,
+            "name": "Michael Myers",
+            "address": "707 Meridian Avenue"
+        },
+        {
+            "id": 3,
+            "name": "Bram Stoker",
+            "address": "666 Cemetery Castle Road"
         }
+
 
     ],
     "locations": [
@@ -30,5 +53,23 @@
             "name": "Nashville South",
             "address": "209 Emory Drive"
         }
+
+    ],
+    "owners": [
+        {
+            "id": 1,
+            "name": "Elvira Samhein",
+            "phoneNumber": 6157771234
+        },
+        {
+            "id": 2,
+            "name": "Wednesday Addams",
+            "phoneNumber": 6157776543 
+        },
+        {
+            "id": 3f,
+            "name": "Bell Witch",
+            "phoneNumber": 6157778970 
+        },
     ]
 }
